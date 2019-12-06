@@ -13,4 +13,4 @@ ENV CLAIR_ADDR=http://clairsvc:6060
 ENV KLAR_TRACE=true
 
 ENTRYPOINT ["/klar"]
-CMD ["quay.io/xdassie/klar"]
+CMD ["quay.io/xdassie/klar:latest"]
