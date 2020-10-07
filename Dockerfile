@@ -1,5 +1,5 @@
 # Many thanks to https://github.com/optiopay/klar for this Dockerfile content
-FROM golang:1.13.4-alpine as builder
+FROM golang:1.8-alpine as builder
 
 RUN apk --update add git;
 RUN go get -d github.com/optiopay/klar
